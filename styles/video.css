@@ -1,0 +1,78 @@
+          .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                column-gap: 15px;
+                row-gap: 40px;
+
+            }
+            @media (max-width: 750px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr;
+                }
+                }
+
+            @media (min-width: 750px) and (max-width: 999px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+                }
+
+            @media (min-width: 1000px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+                }
+
+            /* .video-preview{
+                cursor: pointer;
+            }
+            .video-preview :hover{
+                opacity: 0.6;
+            } */
+
+            .thumbnail{
+                width: 100%;
+            }
+            .thumbnail-row{
+                margin-bottom: 8px;
+                position: relative;
+            }
+            .videoinfo-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+            
+            .channelpfp{
+                width: 36px;
+                border-radius: 25px;
+            }
+
+            .info{
+                padding-left: 7px;
+                padding-bottom: 7px;
+            }
+            .video-title {
+                font-size: 14px;
+                font-weight: 500;
+                margin-top: 0px;
+                margin-bottom: 10px;
+                line-height: 20px;
+            } 
+            .vdo-author ,.vdo-stats{
+                font-size: 13px;
+                margin-top: 5px;
+                margin-bottom: 0px;
+                color: rgb(96, 96, 96);
+            }
+            .time{
+                background-color: black;
+                color: white;
+                position: absolute;
+                bottom: 8px;
+                right: 5px;
+                font-family: Roboto, Arial;
+                font-size: 12px;
+                font-weight: 500;
+                padding: 2px 4px;
+                border-radius: 2px;
+            }
